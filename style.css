@@ -60,3 +60,133 @@ nav{
     border: 1px solid black;
 
 }
+
+.product{
+    border: 2px solid black;
+    width: 460px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.product img{
+    display: block;
+    margin: auto;
+}
+
+.product-title{
+    font-size: 32px;
+    font-weight: 700;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.product-about{
+    font-size: 24px;
+    font-weight: 900;
+    font-style: italic;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.price{
+    font-size: 24px;
+    font-weight: 900;
+    font-style: italic;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.add-to-cart{
+    font-weight: 700;
+    font-size: 32px;
+    font-style: italic;
+    background-color: transparent;
+    border: none;
+    color: black;
+}
+
+.add-to-cart:hover{
+    color: #62FF00;
+}
+
+.product-price-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.part{
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+main{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.media-text{
+    font-size: 24px;
+    font-weight: 900;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.footer-media{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.tel{
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+footer{
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#clear-cart{
+    color: black;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 32px;
+    font-style: italic;
+    border: none;
+}
+
+.text{
+    font-size: 24px;
+    font-weight: 700px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-style: italic;
+}
+
+.main-cart{
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
